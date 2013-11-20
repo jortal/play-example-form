@@ -34,8 +34,8 @@ The design of this example differs in two significant ways from the traditional 
 
 ER Design
 ---------
-![screenshot](https://raw.github.com/ics-software-engineering/play-example-form/master/doc/ERD-play-example-form-WOD.png)
-
+![screenshot](https://raw.github.com/jortal/play-example-form/master/doc/ERD-play-example-form-WOD.png)
+              
 Here is an entity relationship diagram for the application. Users are allowed to search the database to see all the students who have submitted a form, or search specifically for students with a particular (a) Hobby, (b) Grade Level, (c) GPA Interval, or (d) Major.
 
 Each instance of a student is associated with one (and only one) GPA interval and Grade level, and zero to many hobbies and majors. Users of the application are allowed to create or delete these fields as they see fit.     
